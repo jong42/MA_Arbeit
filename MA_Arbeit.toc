@@ -1,5 +1,21 @@
 \select@language {ngerman}
-\contentsline {section}{\numberline {1}Zusammenfassung}{2}
-\contentsline {section}{\numberline {2}Einleitung}{3}
-\contentsline {section}{\numberline {3}Stand der Forschung}{4}
-\contentsline {section}{\numberline {4}Diskussion}{4}
+\contentsline {chapter}{Verzeichnis der Abbildungen und Tabellen}{8}{chapter*.2}
+\contentsline {chapter}{\numberline {1}Begriffserkl\"arungen}{9}{chapter.1}
+\contentsline {chapter}{\numberline {2}Einleitung}{11}{chapter.2}
+\contentsline {chapter}{\numberline {3}Stand der Forschung}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Erzeugung k\"unstlicher Netze}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Nutzung und Qualit\"at von VGI}{13}{section.3.2}
+\contentsline {section}{\numberline {3.3}Verf\"ugbarkeit von Daten zur Niederspannung in freien Geodatenbanken}{14}{section.3.3}
+\contentsline {chapter}{\numberline {4}Methoden}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Eignung von OpenStreetMap-Daten f\"ur die Modellierung von Niederspannungsnetzen}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}Statistische Analyse der Lage von Ortsnetzstationen}{15}{section.4.2}
+\contentsline {section}{\numberline {4.3}Positionierung der Transformatoren}{15}{section.4.3}
+\contentsline {section}{\numberline {4.4}Identifizierung der Netzbezirke}{16}{section.4.4}
+\contentsline {section}{\numberline {4.5}Absch\"atzung der Transformator-Leistung}{16}{section.4.5}
+\contentsline {chapter}{\numberline {5}Ergebnisse}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Validierung der Ergebnisse}{17}{section.5.1}
+\contentsline {chapter}{\numberline {6}Diskussion}{19}{chapter.6}
+\contentsline {chapter}{\numberline {7}Fazit}{21}{chapter.7}
+\contentsline {chapter}{Literaturverzeichnis}{22}{section*.5}
+\contentsline {chapter}{\numberline {A}Rohdaten}{25}{appendix.A}
+\contentsline {chapter}{\numberline {B}Datenbl\"atter}{27}{appendix.B}

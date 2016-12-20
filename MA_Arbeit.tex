@@ -307,7 +307,7 @@ Ortsnetzstation
 
 (Lastflussberechnung)
 
-\chapter{Einleitung\label{chap:Einleitung}}
+\chapter{Einführung\label{chap:Einführung}}
 
 Im Jahr 2010 wurde von der Bundesregierung beschlossen, den Anteil der erneuerbaren 
 Energien an der deutschen Stromversorgung von damals 17 \% auf bis zu 80 \% im Jahr 2050 zu erhöhen. Inzwischen beträgt dieser Anteil etwa 30 \%. Der Umstieg auf erneuerbare Energien geht mit einer stark veränderten Beanspruchung der Stromnetze einher. Diese sind ursprünglich dafür ausgelegt worden, Strom von wenigen großen Erzeugern hin zu vielen kleinen Verbrauchern zu transportieren. Durch das Aufkommen der erneuerbaren Energien entsteht jedoch vielerorts die Situation, dass Strom von Privathaushalten ins Netz eingespeist wird, der Stromfluss kehrt sich also um. Mit dem weiteren Ausbau der Nutzung erneuerbarer Energien ist zu erwarten, dass in naher Zukunft an vielen Stellen die vorhandenen Netze nicht mehr ausreichen, die Stromversorgung unter den veränderten Bedingungen zu gewährleisten. Vor allem die Niederspannungsnetze, die mit einem Längenanteil von x\%  den Großteil der Leitungen in Deutschland ausmachen, sind von diesem Problem betroffen, da die Einspeisung durch Privathaushalte hauptsächlich dort stattfindet.
@@ -330,7 +330,7 @@ Aufbau der Arbeit
 \chapter{Stand der Forschung\label{chap:Stand der Forschung} }
 
 
-\section{Erzeugung künstlicher Netze }
+\section{Erzeugung künstlicher Netzstrukturen in der Niederspannung }
 
 Scheffler untersucht die zulässige Netzanschlussleistung von Photovoltaik-Anlagen in Wohngebieten. Er nennt die Siedlungsstruktur als bestimmenden Faktor für die Beschaffenheit von Netzen und nutzt eine Siedlungsklassifikation des Bundesamtes für Bauwesen und Raumordnung für deren Unterscheidung. Für jeden Siedlungstyp erhebt er auf Basis von Netzplänen eines städtischen und eines regionalen Netzbetreibers die hauptsächlich vorkommenden Werte bestimmter Netzparameter. Mit Hilfe Siedlungstyps und bestimmter Strukturparameter werden dann durchschnittliche Netzparameter bestimmt.
 
@@ -338,20 +338,25 @@ Kerber untersucht die	Aufnahmefähigkeit von Niederspannungsnetzen für Einspeisun
 
 Mohrmann et al. erzeugen künstliche Netzstrukturen auf Basis von Mengengerüsten mit dem Ziel, Untersuchungen von Niederspannungsnetzen zu vereinfachen. Sie erheben Parameter anhand einer Analyse von 2700 Niederspannungsnetze mit vornehmlich ländlicher Prägung. Für jeden der 5 Parameter werden drei bis sechs typische Ausprägungen angegeben. Aus den Kombinationen dieser Parameter können 810 unterschiedliche Netztopologien erzeugt werden.
 
-\section{Nutzung und Qualität von VGI}
+\section{Qualität von OpenStreetMap-Daten}
 
 Neis et al. führen einen Vergleich zwischen dem für Autonavigation relevanten deutschen Straßennetz aus OpenStreetMap und einem kommerziellen Datensatz des Anbieters TomTom durch und kommen zu dem Ergebnis, dass die OpenStreetMap-Daten im Jahr 2011 einen Fehlbetrag von 9\% im Vergleich zu den kommerziellen Daten aufwiesen. Unter Betrachtung aller Straßendaten wurden Letztere sogar um 27 \%  von den OpenStreetMap-Daten übertroffen. Weiterhin stellen sie die Annahme auf, dass das deutsche Straßennetz - im Vergleich zu einem kommerziellen Datensatz - im Jahre 2012 vollständig in OpenStreetMap enthalten sein wird.
 
-\section{Verfügbarkeit von Daten zur Niederspannung in freien Geodatenbanken}
+
+\chapter{Methoden und Daten\label{chap:Methoden und Daten} }
+
+
+\section{Verfügbarkeit von Stromnetzdaten in OpenStreetMap }
 
 Openstreetmap: Mittelspannungsnetze und Umspannstationen, allerdings keine Niederspannung. NS-Kabel in der Regel nicht sichtbar, darum auch nicht in OSM zu erwarten.
 
-Geoportale der Bundesländer?
+\section{Nutzung von OpenStreetMap-Straßendaten als Platzhalter für Niederspannungsleitungen}
 
-\chapter{Methoden\label{chap:Methoden} }
+Validierung
 
+Leitungslänge und ONS-Anzahl: Gebiete auswählen, die sich für Validierung eignen und jeweilige Parameter vergleichen. 
+Von 20 Verteilnetzbetreibern wurden Strukturdaten, vor allem die gesamte Länge der Kabelleitungen im Netzgebiet, gesammelt. Nur drei dieser Betreiber stellten Daten zur Kabellänge ohne Hausanschlüsse zur Verfügung, daher wurden in den Netzgebieten dieser drei Betreiber die gesamte Länge der modellierten Netze erhoben und die Längen miteinander verglichen. Die drei Netzbetreiber sind: EWR Netze, Enervie Vernetzt, Energie Waldeck Frankenberg. Über die Webseiten dieser Netzbetreiber wurden Karten im von deren Netzgebieten pdf-Format bezogen. Diese Karten wurden georeferenziert und damit die Straßen identifiziert, die in den Netzgebieten liegen. Die gesamte Länge dieser Straßen wurde pro Netzgebiet bestimmt.
 
-\section{Eignung von OpenStreetMap-Daten für die Modellierung von Niederspannungsnetzen }
 
 \section{Statistische Analyse der Lage von Ortsnetzstationen }
 
@@ -373,31 +378,16 @@ Die Daten werden aufgeteilt in einen Trainings- und einen Testdatensatz, indem d
 
 Für jeden Parameter werden anschließend Boxplots jeweils für die ONS-Standorte und die Nicht-ONS-Punkte erstellt, um aus deren Vergleich einen ersten Eindruck über das Verhalten der Parameter zu gewinnen. Ausgehend von diesem Eindruck sollten dann Parameter für die logistische Regression geschätzt werden.
 
-Drei der Parameter werden für die Modellbildung genutzt, Ein GLM (Generalized Linear Model) wird angewendet.
+Drei der Parameter werden für die Modellbildung genutzt, Ein GLM (Generalized Linear Model) wird erstellt (pop100,distcrossroad,buildingsarea100).
 
 
 
-\section{Positionierung der Transformatoren}
+
+\section{Bestimmung der Anzahl der Ortsnetzstationen}
 
 Bestimmung der Anzahl der ONS
 
-Die Positionierung der ONS erfolgt auf dem Straßennetz. Das Problem, eine vorgegebene Anzahl an Punkten auf einem Netzwerk möglichst gleichmäßig zu verteilen, ist dem in der Graphentheorie bekannten dominating-set-Problem sehr ähnlich. Für das dominating-set-Problem ist kein Algorithmus bekannt, der eine optimale Lösung liefert, jedoch gibt es Algorithmen, deren Ergebnisse sich in einem bestimmten Bereich um das Optimum befinden. Ein solcher Algorithmus wurde in leicht abgewandelter Form für die vorliegende Aufgabe verwendet (BELEG!!). Um den Positionierungsalgorithmus ausführen zu können, wir das Straßennetz zuerst mit Hilfe des networkx-packages für Python in einen Graphen umgewandelt. Jede Kante des Straßennetzes bildet eine Kante, deren Start-und Endpunkte bilden die Knoten des Graphen. Jeder Knoten ist ein möglicher Standort einer ONS und ist initial als undominiert markiert. Der erste Schritt des Algorithmus besteht nun darin, denjenigen Knoten auszuwählen, der die meisten Nachbarn hat und diesen als ONS zu markieren. Das Kriterium der meisten Nachbarn dient dazu, sicherzustellen, dass ein Knoten an einer zentralen Position im Netz ausgewählt wird, und nicht etwa ein Knoten in einer relativ isolierten Position.  Dahinter steht folgende Überlegung: ONS liegen zwingendermaßen an zentralen Punkten des Stromnetzes. Mit der Annahme, dass das Stromnetz stark dem Straßennetz ähnelt, liegen ONS also auch an zentralen Punkten des Straßennetzes. Als Nächstes werden sämtliche Knoten, die von der neu ausgewählten ONS aus unter Annahme eines durchschnittlich großen Ortsnetzes versorgt werden können, als dominiert markiert und dieser ONS zugewiesen. Diese Zuweisung erfolgt auf Grundlage der zuvor geschätzten durchschnittlichen Länge eines Niederspannungsstrangs. Auf den verbleibenden, als undominiert markierten Knoten, wird nun der Algorithmus erneut ausgeführt, es wird also wiederum der Knoten mit den meisten Nachbarn ausgewählt, als ONS gekennzeichnet, und die Knoten in dessen Einzugsgebiet als dominiert markiert. Dies wird solange wiederholt, bis die gewünschte Anzahl an ONS positioniert worden ist. Die als ONS markierten Punkte werden zurück in die Datenbank exportiert.
-
-
-
-
-in Anlehnung auf das dominating-set-problem
-
-
-\section{Identifizierung der Netzbezirke }
-
-\section{Abschätzung der Transformator-Leistung}
-
-\chapter{Ergebnisse\label{chap:Ergebnisse} }
-
-
-
-\section{Validierung der Ergebnisse}
+Validierung
 
 Eine Stichprobe von 1146 ONS-Positionen im LVN-Gebiet.Gesamtanzahl an ONS im LVN-Gebiet:9400.
 Grundbedingungen für Stichprobengröße und -art: Siehe Statistics Refresher S.30
@@ -413,6 +403,39 @@ Auswahl der modellierten ONS, die in diesen load areas liegen
 modellierte und reale ONS-Anzahlen pro lv load area in R geladen
 
 absoluter und relativer Unterschied zwischen realer und künstlich erzeugter ONS-Anzahl pro Lastgebiet bestimmt, sowohl mit Vorzeichenberücksichtigung als auch ohne.
+
+Regression durchführen (schon in R durchgeführt). 
+
+\section{Positionierung der Ortsnetzstationen}
+
+Die Positionierung der ONS erfolgt auf dem Straßennetz. Das Problem, eine vorgegebene Anzahl an Punkten auf einem Netzwerk möglichst gleichmäßig zu verteilen, ist dem in der Graphentheorie bekannten dominating-set-Problem sehr ähnlich. Für das dominating-set-Problem ist kein Algorithmus bekannt, der eine optimale Lösung liefert, jedoch gibt es Algorithmen, deren Ergebnisse sich in einem bestimmten Bereich um das Optimum befinden. Ein solcher Algorithmus wurde in leicht abgewandelter Form für die vorliegende Aufgabe verwendet (BELEG!!). Um den Positionierungsalgorithmus ausführen zu können, wir das Straßennetz zuerst mit Hilfe des networkx-packages für Python in einen Graphen umgewandelt. Jede Kante des Straßennetzes bildet eine Kante, deren Start-und Endpunkte bilden die Knoten des Graphen. Jeder Knoten ist ein möglicher Standort einer ONS und ist initial als undominiert markiert. Der erste Schritt des Algorithmus besteht nun darin, denjenigen Knoten auszuwählen, der die meisten Nachbarn hat und diesen als ONS zu markieren. Das Kriterium der meisten Nachbarn dient dazu, sicherzustellen, dass ein Knoten an einer zentralen Position im Netz ausgewählt wird, und nicht etwa ein Knoten in einer relativ isolierten Position.  Dahinter steht folgende Überlegung: ONS liegen zwingendermaßen an zentralen Punkten des Stromnetzes. Mit der Annahme, dass das Stromnetz stark dem Straßennetz ähnelt, liegen ONS also auch an zentralen Punkten des Straßennetzes. Als Nächstes werden sämtliche Knoten, die von der neu ausgewählten ONS aus unter Annahme eines durchschnittlich großen Ortsnetzes versorgt werden können, als dominiert markiert und dieser ONS zugewiesen. Diese Zuweisung erfolgt auf Grundlage der zuvor geschätzten durchschnittlichen Länge eines Niederspannungsstrangs. Auf den verbleibenden, als undominiert markierten Knoten, wird nun der Algorithmus erneut ausgeführt, es wird also wiederum der Knoten mit den meisten Nachbarn ausgewählt, als ONS gekennzeichnet, und die Knoten in dessen Einzugsgebiet als dominiert markiert. Dies wird solange wiederholt, bis die gewünschte Anzahl an ONS positioniert worden ist. Die als ONS markierten Punkte werden zurück in die Datenbank exportiert.
+
+in Anlehnung auf das dominating-set-problem
+
+
+\section{Identifizierung der Ortsnetzbezirke }
+
+
+\chapter{Ergebnisse\label{chap:Ergebnisse} }
+
+\section{Leitungen}
+
+Stromkreislängen und Straßenlängen in den drei Netzgebieten:
+
+Energie Waldeck Frankenberg: 2388km Stromkreislänge / 1752km Straßenlänge. 73 \% der realen Länge ist erfasst
+Enervie Vernetzt: 4051km Stromkreislänge / 2596km Straßenlänge. 64\% der realen Länge ist erfasst
+EWR: 3294km Stromkreislänge / 2096km Straßenlänge. 63\% der realen Länge ist erfasst
+
+Reale Kabellänge ist deutlich höher als die Straßenlänge. Nur etwa 67\% der Längen sind erfasst.
+
+\section{Ortsnetzstationen}
+
+Die Entfernung zu Kreuzungen sowie die Gebäudefläche im Umkreis von 100m stellten sich als signifikante Parameter heraus mit p-Werten von <0.001.
+
+Validierung
+
+absoluter und relativer Unterschied zwischen realer und künstlich erzeugter ONS-Anzahl pro Lastgebiet bestimmt, sowohl mit Vorzeichenberücksichtigung als auch ohne.
+
 arithmetisches Mittel absoluter Unterschied: -0.37 [Transformatoren]: Im Mittel 0.37 ONT weniger modelliert als in der Realität
 Standardabweichung absoluter Unterschied: 4.86 Trafos
 arithmetisches Mittel relativer Unterschied: +16,8\%: Im Mittel 16,8\% mehr ONT als in der Realität.
@@ -422,26 +445,14 @@ Standardabweichung absoluter Unterschied Betrag: 4.57 Trafos
 arithmetisches Mittel relativer Unterschied Betrag: 46,2 \%: Im Mittel sind die modellierten Anzahlen um 46,2\% (im Bezug zur realen Anzahl)von der realen Anzahl entfernt.
 Standardabweichung relativer Unterschied Betrag: 101,8 \%
 
-Ausreißer diskutieren
+Regression: Signifikante Ergebnisse für positiven Zusammenhang Fehler zu ONS-Anzahl bei absoluten Werten.
 
-Regression durchführen (schon in R durchgeführt). Signifikante Ergebnisse für positiven Zusammenhang Fehler zu ONS-Anzahl bei absoluten Werten.
+\section{Ortsnetzbezirke}
 
-Leitungslänge und ONS-Anzahl: Gebiete auswählen, die sich für Validierung eignen und jeweilige Parameter vergleichen. 
-Von 20 Verteilnetzbetreibern wurden Strukturdaten, vor allem die gesamte Länge der Kabelleitungen im Netzgebiet, gesammelt. Nur drei dieser Betreiber stellten Daten zur Kabellänge ohne Hausanschlüsse zur Verfügung, daher wurden in den Netzgebieten dieser drei Betreiber die gesamte Länge der modellierten Netze erhoben und die Längen miteinander verglichen. Die drei Netzbetreiber sind: EWR Netze, Enervie Vernetzt, Energie Waldeck Frankenberg.
-
-Donnerstag
-
-
-
-einzelne Netzgebiete: Antwort von eon avacon abwarten...
 
 \chapter{Diskussion\label{chap:Diskussion} }
 
-Fehlerquelle: Aufgrund dem Export aus Sincal können einige ONS mehrfach gezählt worden sein, da jede ONS-Leitung als eigener ONS gezählt wird.
-
-Ungenauigkeiten beim Export aus Sincal
-
-unbekannte Genauigkeit der Eingangsdaten von LVN; Darstellung in Sincal ist vereinfacht
+\section{Leitungen}
 
 Ungenauigkeit von OSM
 
@@ -449,10 +460,24 @@ Freileitungen
 
 Vollständigkeit der OSM-Daten aufgrund von Stichprobenbeobachtung noch nicht 100\%. Könnte auch an fehlerhaftem Labeling oder fehlerhaftem Import liegen.
 
+Zu beachten: Geographische Fläche evtl. nicht von jedem Netzbetreiber gleich erfasst: Manchmal Unterscheidung zwischen Spannungsebenen, manchmal nur ein Wert.
+
+Möglicher Grund dafür, dass Straßenlänge deutlich kürzer ist als Stromkreislänge: Kabel könnten doppelt bzw. beidseitig an Straßen verlegt sein. 
+
+\section{Ortsnetzstationen}
+
+Ausreißer bei Validierung (Regression) diskutieren
+
+Fehlerquelle: Aufgrund dem Export aus Sincal können einige ONS mehrfach gezählt worden sein, da jede ONS-Leitung als eigener ONS gezählt wird.
+
+unbekannte Genauigkeit der Eingangsdaten von LVN; Darstellung in Sincal ist vereinfacht
+
+Ungenauigkeiten beim Export aus Sincal
+
 Bei ONS-Anzahl-Validierung vermutlich absolute Werte besser geeignet, da relative Werte bei kleinen ONS-Anzahlen sehr groß werden können; 100\% Abweichung entsprechen evtl. nur einem Trafo.
 
-Zu beachten: Geographische Fläche evtl. nicht von jedem Netzbetreiber gleich erfasst: Manchmal Unterscheidung zwischen Spannungsebenen, manchmal nur ein Wert.
- 
+\section{Ortsnetzbezirke}
+
 \chapter{Fazit\label{chap:Fazit} }
 
 

@@ -1,21 +1,26 @@
 \select@language {ngerman}
 \contentsline {chapter}{Verzeichnis der Abbildungen und Tabellen}{8}{chapter*.2}
 \contentsline {chapter}{\numberline {1}Begriffserkl\"arungen}{9}{chapter.1}
-\contentsline {chapter}{\numberline {2}Einleitung}{11}{chapter.2}
+\contentsline {chapter}{\numberline {2}Einf\"uhrung}{11}{chapter.2}
 \contentsline {chapter}{\numberline {3}Stand der Forschung}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Erzeugung k\"unstlicher Netze}{13}{section.3.1}
-\contentsline {section}{\numberline {3.2}Nutzung und Qualit\"at von VGI}{13}{section.3.2}
-\contentsline {section}{\numberline {3.3}Verf\"ugbarkeit von Daten zur Niederspannung in freien Geodatenbanken}{14}{section.3.3}
-\contentsline {chapter}{\numberline {4}Methoden}{15}{chapter.4}
-\contentsline {section}{\numberline {4.1}Eignung von OpenStreetMap-Daten f\"ur die Modellierung von Niederspannungsnetzen}{15}{section.4.1}
-\contentsline {section}{\numberline {4.2}Statistische Analyse der Lage von Ortsnetzstationen}{15}{section.4.2}
-\contentsline {section}{\numberline {4.3}Positionierung der Transformatoren}{15}{section.4.3}
-\contentsline {section}{\numberline {4.4}Identifizierung der Netzbezirke}{16}{section.4.4}
-\contentsline {section}{\numberline {4.5}Absch\"atzung der Transformator-Leistung}{16}{section.4.5}
-\contentsline {chapter}{\numberline {5}Ergebnisse}{17}{chapter.5}
-\contentsline {section}{\numberline {5.1}Validierung der Ergebnisse}{17}{section.5.1}
-\contentsline {chapter}{\numberline {6}Diskussion}{19}{chapter.6}
-\contentsline {chapter}{\numberline {7}Fazit}{21}{chapter.7}
-\contentsline {chapter}{Literaturverzeichnis}{22}{section*.5}
-\contentsline {chapter}{\numberline {A}Rohdaten}{25}{appendix.A}
-\contentsline {chapter}{\numberline {B}Datenbl\"atter}{27}{appendix.B}
+\contentsline {section}{\numberline {3.1}Erzeugung k\"unstlicher Netzstrukturen in der Niederspannung}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Qualit\"at von OpenStreetMap-Daten}{13}{section.3.2}
+\contentsline {chapter}{\numberline {4}Methoden und Daten}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Verf\"ugbarkeit von Stromnetzdaten in OpenStreetMap}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}Nutzung von OpenStreetMap-Stra\IeC {\ss }endaten als Platzhalter f\"ur Niederspannungsleitungen}{15}{section.4.2}
+\contentsline {section}{\numberline {4.3}Statistische Analyse der Lage von Ortsnetzstationen}{15}{section.4.3}
+\contentsline {section}{\numberline {4.4}Bestimmung der Anzahl der Ortsnetzstationen}{16}{section.4.4}
+\contentsline {section}{\numberline {4.5}Positionierung der Ortsnetzstationen}{16}{section.4.5}
+\contentsline {section}{\numberline {4.6}Identifizierung der Ortsnetzbezirke}{17}{section.4.6}
+\contentsline {chapter}{\numberline {5}Ergebnisse}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}Leitungen}{19}{section.5.1}
+\contentsline {section}{\numberline {5.2}Ortsnetzstationen}{19}{section.5.2}
+\contentsline {section}{\numberline {5.3}Ortsnetzbezirke}{19}{section.5.3}
+\contentsline {chapter}{\numberline {6}Diskussion}{21}{chapter.6}
+\contentsline {section}{\numberline {6.1}Leitungen}{21}{section.6.1}
+\contentsline {section}{\numberline {6.2}Ortsnetzstationen}{21}{section.6.2}
+\contentsline {section}{\numberline {6.3}Ortsnetzbezirke}{21}{section.6.3}
+\contentsline {chapter}{\numberline {7}Fazit}{23}{chapter.7}
+\contentsline {chapter}{Literaturverzeichnis}{24}{section*.5}
+\contentsline {chapter}{\numberline {A}Rohdaten}{27}{appendix.A}
+\contentsline {chapter}{\numberline {B}Datenbl\"atter}{29}{appendix.B}

@@ -2,15 +2,16 @@
 \contentsline {chapter}{Verzeichnis der Abbildungen und Tabellen}{8}{chapter*.2}
 \contentsline {chapter}{\numberline {1}Begriffserkl\"arungen}{9}{chapter.1}
 \contentsline {chapter}{\numberline {2}Einf\"uhrung}{11}{chapter.2}
-\contentsline {chapter}{\numberline {3}Stand der Forschung}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Erzeugung k\"unstlicher Netzstrukturen in der Niederspannung}{13}{section.3.1}
-\contentsline {section}{\numberline {3.2}Qualit\"at von OpenStreetMap-Daten}{13}{section.3.2}
+\contentsline {chapter}{\numberline {3}Grundlagen}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Aufbau des deutschen Stromnetzes}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Erzeugung k\"unstlicher Netzstrukturen in der Niederspannung}{13}{section.3.2}
+\contentsline {section}{\numberline {3.3}Das OpenStreetMap-Projekt}{14}{section.3.3}
 \contentsline {chapter}{\numberline {4}Methoden und Daten}{15}{chapter.4}
 \contentsline {section}{\numberline {4.1}Verf\"ugbarkeit von Stromnetzdaten in OpenStreetMap}{15}{section.4.1}
 \contentsline {section}{\numberline {4.2}Nutzung von OpenStreetMap-Stra\IeC {\ss }endaten als Platzhalter f\"ur Niederspannungsleitungen}{15}{section.4.2}
-\contentsline {section}{\numberline {4.3}Statistische Analyse der Lage von Ortsnetzstationen}{15}{section.4.3}
+\contentsline {section}{\numberline {4.3}Statistische Analyse der Lage von Ortsnetzstationen}{16}{section.4.3}
 \contentsline {section}{\numberline {4.4}Bestimmung der Anzahl der Ortsnetzstationen}{16}{section.4.4}
-\contentsline {section}{\numberline {4.5}Positionierung der Ortsnetzstationen}{16}{section.4.5}
+\contentsline {section}{\numberline {4.5}Positionierung der Ortsnetzstationen}{17}{section.4.5}
 \contentsline {section}{\numberline {4.6}Identifizierung der Ortsnetzbezirke}{17}{section.4.6}
 \contentsline {chapter}{\numberline {5}Ergebnisse}{19}{chapter.5}
 \contentsline {section}{\numberline {5.1}Leitungen}{19}{section.5.1}
@@ -22,5 +23,3 @@
 \contentsline {section}{\numberline {6.3}Ortsnetzbezirke}{21}{section.6.3}
 \contentsline {chapter}{\numberline {7}Fazit}{23}{chapter.7}
 \contentsline {chapter}{Literaturverzeichnis}{24}{section*.5}
-\contentsline {chapter}{\numberline {A}Rohdaten}{27}{appendix.A}
-\contentsline {chapter}{\numberline {B}Datenbl\"atter}{29}{appendix.B}

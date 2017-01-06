@@ -1,5 +1,6 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: MA_Arbeit.aux
 The style file: bibtex/dinat.bst
-I found no \citation commands---while reading file MA_Arbeit.aux
 Database file #1: bibtex/MA_Arbeit_Guetter_Literatur.bib
-(There was 1 error message)
+Warning--entry type for "BDEW2016" isn't style-file defined
+--line 17 of file bibtex/MA_Arbeit_Guetter_Literatur.bib
+(There was 1 warning)

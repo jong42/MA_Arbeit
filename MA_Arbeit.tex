@@ -193,10 +193,10 @@ Wissenschaftliche Arbeit\\
 \noindent \begin{flushleft}
 Friedrich-Schiller-Universität Jena\\
 Institut für Geographie\\
-Umwelttechnik/Regenerative Energien\\
+Lehrstuhl für Geoinformatik\\
 \medskip{}
 Betreuung durch:\\
-xxxxxxxxxxxxxx\\
+Dr. Jannes Münchow\\
 \vspace{10mm}
 Reiner Lemoine Institut gGmbH\\
 \medskip{}
@@ -310,11 +310,15 @@ Ortsnetzstation
 \chapter{Einführung\label{chap:Einführung}}
 
 Im Jahr 2010 wurde von der Bundesregierung beschlossen, den Anteil der erneuerbaren 
-Energien an der deutschen Stromversorgung von damals 17 \% auf bis zu 80 \% im Jahr 2050 zu erhöhen. Inzwischen beträgt dieser Anteil etwa 30 \%. Der Umstieg auf erneuerbare Energien geht mit einer stark veränderten Beanspruchung der Stromnetze einher. Diese sind ursprünglich dafür ausgelegt worden, Strom von wenigen großen Erzeugern hin zu vielen kleinen Verbrauchern zu transportieren. Durch das Aufkommen der erneuerbaren Energien entsteht jedoch vielerorts die Situation, dass Strom von Privathaushalten ins Netz eingespeist wird, der Stromfluss kehrt sich also um. Mit dem weiteren Ausbau der Nutzung erneuerbarer Energien ist zu erwarten, dass in naher Zukunft an vielen Stellen die vorhandenen Netze nicht mehr ausreichen, die Stromversorgung unter den veränderten Bedingungen zu gewährleisten. Vor allem die Niederspannungsnetze, die mit einem Längenanteil von x\%  den Großteil der Leitungen in Deutschland ausmachen, sind von diesem Problem betroffen, da die Einspeisung durch Privathaushalte hauptsächlich dort stattfindet.
+Energien an der deutschen Stromversorgung von damals 17 \% auf bis zu 80 \% im Jahr 2050 zu erhöhen. Inzwischen beträgt dieser Anteil etwa 30 \%. Der Umstieg auf erneuerbare Energien geht mit einer stark veränderten Beanspruchung der Stromnetze einher. Diese sind ursprünglich dafür ausgelegt worden, Strom von wenigen großen Erzeugern hin zu vielen kleinen Verbrauchern zu transportieren. Durch das Aufkommen der erneuerbaren Energien entsteht jedoch vielerorts die Situation, dass Strom von Privathaushalten ins Netz eingespeist wird, der Stromfluss kehrt sich also um. Mit dem weiteren Ausbau der Nutzung erneuerbarer Energien ist zu erwarten, dass in naher Zukunft an vielen Stellen die vorhandenen Netze nicht mehr ausreichen, die Stromversorgung unter den veränderten Bedingungen zu gewährleisten \citep{dena2010}. Vor allem die Niederspannungsnetze, die mit einem Längenanteil von rund 65\%  den größten Teil der Leitungen in Deutschland ausmachen, sind von diesem Problem betroffen, da die Einspeisung durch Privathaushalte hauptsächlich dort stattfindet.
 
 Um die Auslegung der zukünftigen Netze möglichst effektiv planen zu können, ist es wichtig, die heute bestehenden Netze zu untersuchen, um Schwachstellen zu finden und Maßnahmen für deren Behebung entwickeln zu können.
 
-Eine große Schwierigkeit hierbei für den Bereich der Niederspannungsnetze besteht in der mangelhaften Datenlage. Die Verteilnetzbetreiber stellen Daten zu ihren Netzen oftmals nicht frei zur Verfügung oder haben diese Daten noch nicht digitalisiert. Ein der wissenschaftlichen Gemeinschaft frei zugänglicher, vollständiger Datensatz der deutschen Niederspannungsnetze existiert daher gegenwärtig nicht. Um trotzdem repräsentative Aussagen zur Lage der deutschen Niederspannungsnetze machen zu können, wurden verschiedene Methoden entwickelt, mit denen künstliche Netzstrukturen erzeugt werden, die den tatsächlichen Netzen möglichst ähneln. Meist werden dafür Strukturparameter der Siedlungsstruktur herangezogen, um typische Netze zu erstellen. Jedoch weisen alle diese Ansätze einen sehr starken Generalisierungsgrad auf, bei denen die individuellen Netzformen verlorengehen. In dieser Arbeit wird eine Methode vorgestellt, die künstliche Netzstrukturen generiert und sich dabei an den realen Netzformen orientiert, sodass die erzeugten Leitungsverläufe immer den Leitungsverläufen der realen Netze ähnlich sehen. Dazu werden Straßendaten aus OpenStreetMap verwendet.
+Aus diesem Grund wurde am Reiner Lemoine Institut das Projekt open\_eGo (open electricity grid optimization) ins Leben gerufen, in dessen Rahmen diese Arbeit erstellt wurde. Ziel des Projekts ist es, ein öffentlich zugängliches Netzplanungsinstrument zu schaffen, indem auf einer virtuellen Forschungsplattform Daten zu den deutschen Stromnetzen zur Verfügung gestellt werden, und diese Daten zur Erstellung verschiedener Szenarien genutzt werden können. Die vorliegende Arbeit ist dabei im Bereich der Datenbereitstellung angesiedelt und stellt eine Methode vor, mit der künstliche Netzdaten für den Bereich der Niederspannung generiert werden können.
+
+Bei der Analyse von Stromnetzen in der Niederspannungsebene besteht eine große Schwierigkeit in der mangelhaften Datenlage. Die Verteilnetzbetreiber stellen Daten zu ihren Netzen oftmals nicht frei zur Verfügung oder haben diese Daten noch nicht digitalisiert. Ein frei zugänglicher, vollständiger Datensatz der deutschen Niederspannungsnetze existiert daher gegenwärtig nicht. 
+
+Um trotzdem repräsentative Aussagen zur Lage der deutschen Niederspannungsnetze machen zu können, wurden verschiedene Methoden entwickelt, mit denen künstliche Netzstrukturen erzeugt werden, die den tatsächlichen Netzen möglichst ähneln. Meist werden dafür Strukturparameter der Siedlungsstruktur herangezogen, um typische Netze zu erstellen. Jedoch weisen alle diese Ansätze einen sehr starken Generalisierungsgrad auf, bei denen die individuellen Netzformen verlorengehen. In dieser Arbeit wird eine Methode vorgestellt, die künstliche Netzstrukturen generiert und sich dabei an den realen Netzformen orientiert, sodass die erzeugten Leitungsverläufe immer den Leitungsverläufen der realen Netze ähnlich sehen. Dazu werden Straßendaten aus OpenStreetMap verwendet.
 
 Das OpenStreetMap-Projekt wurde 2004 gegründet und hat die Kartierung der gesamten Erdoberfläche zum Ziel. Neben Straßendaten sind auch vielfältige Daten zur Landnutzung, Landbedeckung und Siedlungsstruktur in der OpenStreetMap-Datenbank enthalten. Erhoben werden diese Daten durch eine große Zahl von Freiwilligen ohne spezielle kartographische Ausbildung. Initiativen wie das OpenStreetMap - Projekt, bei denen die Datengrunndlage aus nutzergenerierten Geodaten besteht, werden unter dem Begriff Volunteered Geographic Information (VGI) zusammengefasst. Einer der Vorteile von VGI gegenüber kommerziellen Datenanbietern besteht darin, dass die Daten in der Regel kostenlos und unter einer freien Lizenz verfügbar sind. Außerdem beinhalten sie oft spezialisierte Informationen, deren Erhebung für kommerzielle Anbieter nicht wirtschaftlich wäre. Auf der anderen Seite ist die Erfassung der Datenqualität bei VGI-Projekten oftmals schwierig, da zahlreiche Nutzer nach unterschiedlichen Vorgehen Daten einarbeiten. Auch sind Informationen, für die spezielle Ausrüstung oder Expertenwissen benötigt wird, nur selten in VGI-Projekten zu finden, da die Datenerhebung meist von Freiwilligen ohne entsprechende Ausbildung durchgeführt wird. OpenStreetMap-Daten werden unter anderem bereits für 3D-Anwendungen, im Katastrophenmanagement und vor allem zur Routenplanung eingesetzt.
 
@@ -326,31 +330,73 @@ Aufbau der Arbeit
 	
 
 
+\chapter{Grundlagen\label{chap:Grundlagen} }
 
-\chapter{Stand der Forschung\label{chap:Stand der Forschung} }
+\section{Aufbau des deutschen Stromnetzes}
 
+Transport- bzw. Übertragungsnetze mit hohen Spannungen gegenüber Verteilnetzen mit niedrigen Spannungen (Heuck et al. S2. f.)
+
+"`Planung und Betrieb der Energieversorgungsnetze sowie der Stromerzeugung und Stromlieferung werden in der Bundesrepublik von privatwirtschaftlich organisierten Energieversorgungsunternehmen (EVU) vorgenommen. Zurzeit decken gut 700 Energieversorgungsunternehmen mehr als 99\% des benötigten Strombedarfs"'  (Heuck et al. S.3).
+
+Übertragungsnetze werden von nur vier Gesellschaften betrieben: E.ON, Vattenfall Europe, RWE und EnBW (siehe Abbildung) (Heuck et al. S.3).
+
+\includegraphics{bilder/ÜNB_Bezirke}
+
+In Deutschland gibt es vier verschiedene Spannungsebenen des Stromnetzes: Höchst- (380 kV), Hoch- (110 kV), Mittel-(10 oder 20 kV) und Niederspannung (230 und 400 V) (Heuck et al. S. 77 f.)
+
+Der größte Teil der Endverbraucher bezieht Strom aus dem Niederspannungsnetze. Diese sind durch Ortsnetzstationen mit dem übergeordneten Mittelspannungsnetzen verbunden und werden von diesen gespeist (Heuck et al. S.78)
+
+Struktur von Niederspannungsnetzen orientiert sich an der Lastdichte. Lastdichte ist die Verbraucherleistung bezogen auf die Fläche. Niedrige Lastdichten wie in ländlichen Gebieten sind Strahlennetze charakteristisch. Untereinander nicht verbundene Leitungen, die von einer Ortsnetzstation versorgt werden. (Heuck et al. S.78). Manchmal gibt es Verbindungsstellen zwischen den einzelnen Strängen, die im Falle einer Störung geschlossen werden können. Die so entstehenden Netzform nennt man Ringnetz. Sind mehrere Ortsnetzstationen durch Leitungen miteinander verbunden, spricht man von einem Maschennetz. Maschennetze kommen meist in städtischen Gebiete mit hohen Lastdichten vor. Aufgrund von Schwierigkeiten bei der Wieder-Inbetriebnahme solcher Netze nach Störungen werden seit den siebziger Jahren jedoch keine größeren Maschennetze mehr geplant, sondern hauptsächlich Ring- und Strahlennetze eingesetzt. Eine Sonderfall der Strahlennetze sind die Anschluss- oder Stummelnetze. Diese werden hauptsächlich in Innenstädten bei sehr großen Lastdichten eingesetzt und erstrecken sich daher nur über sehr kleine Gebiete (Heuck et al. S.79 f.). 
+
+\includegraphics{bilder/foo}
+\includegraphics{bilder/foo}
+\includegraphics{bilder/foo}
+
+Wieso gibt es verschiedene Spannungsebenen?
+
+Bei niedrigen Lastdichten werden sowohl Kabel als auch Freileitungen verwendet, bei höheren Lastdichten vorwiegend Kabel. Kabel werden entlang von Straßen verlegt, häufig beidseitig. (Heuck et al. S.78 f.)
+
+Industrieverbraucher sind teilweise auch direkt am Mittelspannungsnetz angeschlossen (Heuck et al. S.80).
+
+Mittelspannungsnetze werden über Umspannstationen aus den Hochspannungsnetzen gespeist. Meist werden Endverbraucher nicht direkt aus den Mittelspannungsnetzen versorgt, es sei denn es handelt sich um Industrieverbraucher mit hohem Spannungsbedarf. Strom der Mittelspannung wird sowohl über unterirdische Kabel als auch über Freileitungen transportiert, wobei in städtischen Gebieten fast ausschließlich Kabel verwendet werden (Heuck et al. S.80).
+Mittelspannungsnetze sind oft als Ringleitungen aufgebaut  bzw. werden im Betrieb als Strahlennetze betrieben. Jede Ringleitung versorgt im Normalfall 5 bis 10 Ortsnetzstationen. Mittelspannungsnetze können zum Zweck der Sicherheit gegen Störungen untereinander verbunden sein. In der Regel nur eine Einspeisestelle, Maschennetze werden vermieden (Heuck et al. S.81 f.).
+
+Das Hochspannungsnetz wird über Umspannwerke aus den Höchstspannungsnetzen versorgt, vereinzelt auch durch Kraftwerke (Heuck et al. S.82).
+
+Das Höchstspannungsnetz verbindet die Kraftwerke mit den Umspannwerken. Am Höchstspannungsnetz sind keine Verbraucher angeschlossen (Heuck et al. S.82).
+
+Zusammenhang zur Arbeit bzw. openeGo?
+
+\includegraphics{bilder/Spannungsebenen}
 
 \section{Erzeugung künstlicher Netzstrukturen in der Niederspannung }
 
-Scheffler untersucht die zulässige Netzanschlussleistung von Photovoltaik-Anlagen in Wohngebieten. Er nennt die Siedlungsstruktur als bestimmenden Faktor für die Beschaffenheit von Netzen und nutzt eine Siedlungsklassifikation des Bundesamtes für Bauwesen und Raumordnung für deren Unterscheidung. Für jeden Siedlungstyp erhebt er auf Basis von Netzplänen eines städtischen und eines regionalen Netzbetreibers die hauptsächlich vorkommenden Werte bestimmter Netzparameter. Mit Hilfe Siedlungstyps und bestimmter Strukturparameter werden dann durchschnittliche Netzparameter bestimmt.
+Scheffler untersucht die zulässige Netzanschlussleistung von Photovoltaik-Anlagen in Wohngebieten. Er nennt die Siedlungsstruktur als bestimmenden Faktor für die Beschaffenheit von Netzen und nutzt eine Siedlungsklassifikation des Bundesamtes für Bauwesen und Raumordnung für deren Unterscheidung. Für jeden Siedlungstyp erhebt er auf Basis von Netzplänen eines städtischen und eines regionalen Netzbetreibers die hauptsächlich vorkommenden Werte bestimmter Netzparameter. Mit Hilfe des Siedlungstyps und bestimmter Strukturparameter werden daraufhin durchschnittliche Netzparameter bestimmt. Diese Netzparameter sind für eine elektrotechnische Betrachtung nützlich, allerdings sind die dafür notwendigen Strukturparameter sowie der Siedlungstyp für eine große Anzahl einzelner Ortschaften nur schwer zu erheben. Die von Scheffler erhobenen typischen Netzparameter können jedoch für die Erzeugung künstlicher Netzstrukturen genutzt werden.
 
-Kerber untersucht die	Aufnahmefähigkeit von Niederspannungsnetzen für Einspeisung aus Photovoltaik-Anlagen und erstellt für diesen Zweck Referenznetze. Er betrachtet dabei keine dicht besiedelten urbanen Regionen, da diese in der Regel sowohl eine niedrige PV-Einspeisung als auch stark ausgebaute Netze aufweisen und somit in diesen Gebieten nicht mit Problemen durch PV-Einspeisung zu rechnen ist. Stattdessen werden Land-, Dorf- und Vorstadtnetze betrachtet und anhand einer statistischen Untersuchung von 86 Netzen eine Reihe von Parametern bestimmt. Von diesen Parametern werden der mittlere Hausabstand, die Bemessungsleistung des Transformators und die verbraucherspezifische Transformatorleistung als am besten geeignet für die Trennung der betrachteten Netzklassen identifiziert. Auf Basis der ermittelten Parameter werden für jede der drei Netzklassen zwei charakteristische Referenznetze entwickelt, jeweils ein durchschnittliches und ein Extremwertnetz.
+Kerber untersucht die	Aufnahmefähigkeit von Niederspannungsnetzen für Einspeisung aus Photovoltaik-Anlagen und erstellt für diesen Zweck Referenznetze. Er betrachtet dabei keine dicht besiedelten urbanen Regionen, da diese in der Regel sowohl eine niedrige PV-Einspeisung als auch stark ausgebaute Netze aufweisen und somit in diesen Gebieten nicht mit Problemen durch PV-Einspeisung zu rechnen ist. Stattdessen werden Land-, Dorf- und Vorstadtnetze betrachtet und anhand einer statistischen Untersuchung von 86 Netzen eine Reihe von Parametern bestimmt. Von diesen Parametern werden der mittlere Hausabstand, die Bemessungsleistung des Transformators und die verbraucherspezifische Transformatorleistung als am besten geeignet für die Trennung der betrachteten Netzklassen identifiziert. Auf Basis der ermittelten Parameter werden für jede der drei Netzklassen zwei charakteristische Referenznetze entwickelt, jeweils ein durchschnittliches und ein Extremwertnetz. Lokal unterschiedliche Gelände- und Bebauungsformen werden bei diesem Ansatz jedoch nicht berücksichtigt. Auch wird auf die Verteilung und den Standort der Transformatoren innerhalb eines Ortes nicht eingegangen.
 
-Mohrmann et al. erzeugen künstliche Netzstrukturen auf Basis von Mengengerüsten mit dem Ziel, Untersuchungen von Niederspannungsnetzen zu vereinfachen. Sie erheben Parameter anhand einer Analyse von 2700 Niederspannungsnetze mit vornehmlich ländlicher Prägung. Für jeden der 5 Parameter werden drei bis sechs typische Ausprägungen angegeben. Aus den Kombinationen dieser Parameter können 810 unterschiedliche Netztopologien erzeugt werden.
+Mohrmann et al. erzeugen künstliche Netzstrukturen auf Basis von Mengengerüsten mit dem Ziel, Untersuchungen von Niederspannungsnetzen zu vereinfachen. Sie erheben Parameter anhand einer Analyse von 2700 Niederspannungsnetze mit vornehmlich ländlicher Prägung. Für jeden der 5 Parameter werden drei bis sechs typische Ausprägungen angegeben. Aus den Kombinationen dieser Parameter können 810 unterschiedliche Netztopologien erzeugt werden. Die Mengengerüste, die zur Erzeugung der Netzstrukturen erforderlich sind, sind allerdings aufgrund der Datenlage schwer zu erstellen, auch geben die erzeugten Strukturen nicht notwendigerweise die Form der zugehörigen realen Netze wieder.
 
-\section{Qualität von OpenStreetMap-Daten}
+\section{Das OpenStreetMap-Projekt}
 
 Neis et al. führen einen Vergleich zwischen dem für Autonavigation relevanten deutschen Straßennetz aus OpenStreetMap und einem kommerziellen Datensatz des Anbieters TomTom durch und kommen zu dem Ergebnis, dass die OpenStreetMap-Daten im Jahr 2011 einen Fehlbetrag von 9\% im Vergleich zu den kommerziellen Daten aufwiesen. Unter Betrachtung aller Straßendaten wurden Letztere sogar um 27 \%  von den OpenStreetMap-Daten übertroffen. Weiterhin stellen sie die Annahme auf, dass das deutsche Straßennetz - im Vergleich zu einem kommerziellen Datensatz - im Jahre 2012 vollständig in OpenStreetMap enthalten sein wird.
 
 
 \chapter{Methoden und Daten\label{chap:Methoden und Daten} }
 
+Die verwendeten OSM-Daten wurden von der Webseite geofabrik.de bezogen und anschließend mit Hilfe des Tools osm2pgsql in eine PostgreSQL-Datenbank importiert. Dieser Import wurde nicht selbst vom Autor dieser Arbeit durchgeführt, sondern erfolgte durch andere Mitarbeiter des Reiner Lemoine Instituts.
 
 \section{Verfügbarkeit von Stromnetzdaten in OpenStreetMap }
 
-Openstreetmap: Mittelspannungsnetze und Umspannstationen, allerdings keine Niederspannung. NS-Kabel in der Regel nicht sichtbar, darum auch nicht in OSM zu erwarten.
+Informationen zur Stromnetz-Infrastruktur werden in OSM laut der deutschen OSM-Wiki unter dem Attribut 'power' zusammengefasst. Die Attributwerte 'cable', 'line' und 'minor\_line' kennzeichnen Linien als Stromleitungen, wobei 'cable' für unterirdisch verlegte Kabel und 'line' und 'minor\_line' für oberirdisch verlaufende Freileitungen stehen. Letztere unterscheiden sich in der Art der Masten voneinander. Der Attributwert 'substation' kennzeichnet das Gelände eines Umspannwerks oder einer Transformatorstation, innerhalb der mit dem Attributwert 'transformer' einzelne Transformatoren als Punkte dargestellt werden können. Veraltete, aber noch vorhandene Attributwerte mit der selben Bedeutung sind 'station' und 'sub\_station'.
+Zusätzlich zu 'power' kann das Attribut 'voltage' genutzt werden, um die dem Betriebsmittel zugehörige Spannung anzugeben \citep{osmwiki}.
+
+Die gesamte Länge aller in OSM auf die oben genannte Weise attributierten Leitungen wurde bestimmt: Sie beträgt etwa 200 000 km. Von diesen sind wiederum etwa 193 000 km oberirdisch verlaufende Freileitungen, nur ein geringer Teil von knapp 7000 km wird von den Kabelleitungen eingenommen. 
+Die gesamte Länge der Niederspannungsnetze in Deutschland beträgt dagegen 1,16 Millionen km \citep{BDEW2016}. Hieraus wird klar, dass die in OSM eingetragenen Netzdaten nicht ausreichen, um reale Netze abzubilden.
+
 
 \section{Nutzung von OpenStreetMap-Straßendaten als Platzhalter für Niederspannungsleitungen}
+
 
 Validierung
 
@@ -489,15 +535,6 @@ Bei ONS-Anzahl-Validierung vermutlich absolute Werte besser geeignet, da relativ
 
 
 \appendix
-
-\chapter{Rohdaten\label{chap:Rohdaten}}
-
-Tabellen mit wichtigen Rohdaten
-
-
-
-
-\chapter{Datenblätter\label{chap:Datenbl=0000E4tter}}
 
 
 \end{document}

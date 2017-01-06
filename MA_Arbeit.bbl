@@ -1,4 +1,4 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{3}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -6,5 +6,26 @@
 \makeatother
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax\def\url#1{\texttt{#1}}\fi
+
+\bibitem[BDEW()]{BDEW2016}
+\dinatlabel{BDEW } \textsc{BDEW}:
+\newblock \emph{Deutsches Stromnetz ist 1,8 Millionen Kilometer lang}. --
+\newblock URL
+  \url{https://www.bdew.de/internet.nsf/id/20130412-pi-deutsches-stromnetz-ist-18-millionen-kilometer-lang-de}
+
+\bibitem[Deutsche\_Energie-Agentur(2010)]{dena2010}
+\dinatlabel{Deutsche\_Energie-Agentur 2010} \textsc{Deutsche\_Energie-Agentur}:
+\newblock \emph{dena-Netzstudie 2: Integration erneuerbarer Energien in die
+  deutsche Stromversorgung im Zeitraum 2015 - 2020 mit AUsblick 2025}.
+\newblock 2010
+
+\bibitem[Wiki(2016)]{osmwiki}
+\dinatlabel{Wiki 2016} \textsc{Wiki}, OpenStreetMap:
+\newblock \emph{DE:Hauptseite --- OpenStreetMap Wiki{,}}.
+\newblock 2016. --
+\newblock URL
+  \url{http://wiki.openstreetmap.org/w/index.php?title=DE:Hauptseite&oldid=1381081}.
+  --
+\newblock [Online; accessed 20-Dezember-2016]
 
 \end{thebibliography}

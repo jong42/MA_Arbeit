@@ -1,0 +1,304 @@
+% Encoding: UTF-8
+
+
+@Misc{BBR2006,
+  Title                    = {Siedlungsentwicklung und Infrastrukturfolgekosten - Bilanzierung und Strategieentwicklung},
+
+  Author                   = {Bundesamt für Bauwesen und Raumordnung},
+  HowPublished             = {BBR-Online-Publikation},
+  Year                     = {2006},
+
+  File                     = {:Z\:\\Literatur\\Literatur\\Siedlungsentwicklung_und_Infrastrukturfolgekosten.pdf:PDF},
+  Owner                    = {jonas.gütter},
+  Timestamp                = {2016-10-07}
+}
+
+@Webpage{BDEW2016,
+  Title                    = {Deutsches Stromnetz ist 1,8 Millionen Kilometer lang},
+  Author                   = {BDEW},
+  Date_accessed            = {20.12.2016},
+  Publisher                = {BDEW},
+  Url                      = {https://www.bdew.de/internet.nsf/id/20130412-pi-deutsches-stromnetz-ist-18-millionen-kilometer-lang-de},
+
+  Owner                    = {jonas.gütter},
+  Timestamp                = {2016-12-20}
+}
+
+@Webpage{destatis2015,
+  Title                    = {Bevölkerung auf Grundlage des Zensus 2011},
+  Author                   = {Statistisches Bundesamt},
+  Date_accessed            = {07.10.2016},
+  Publisher                = {Statistisches Bundesamt},
+  Url                      = {https://www.destatis.de/DE/ZahlenFakten/GesellschaftStaat/Bevoelkerung/Bevoelkerungsstand/Tabellen/Zensus_Geschlecht_Staatsangehoerigkeit.html},
+  Year                     = {2015},
+
+  Owner                    = {jonas.gütter},
+  Timestamp                = {2016-10-07}
+}
+
+@Webpage{destatis2015_2,
+  Title                    = {Bevölkerung},
+  Author                   = {Statistisches Bundesamt},
+  Date_accessed            = {07.10.2016},
+  Publisher                = {Statistisches Bundesamt},
+  Url                      = {https://www.destatis.de/DE/ZahlenFakten/Indikatoren/LangeReihen/Bevoelkerung/lrbev05.html},
+  Year                     = {2015},
+
+  Owner                    = {jonas.gütter},
+  Timestamp                = {2016-10-07}
+}
+
+@Diplomarbeit{Demirel2013,
+  Title                    = {Modellierung von Referenznetzen in der Niederspannungsebene},
+  Author                   = {Demirel, K.},
+  School                   = {FH Köln},
+  Year                     = {2013},
+  File                     = {:Z\:\\Literatur\\Literatur\\Demirel-Referenznetze-Diplomarbeit_2013-02.pdf:PDF},
+  Owner                    = {jonas.gütter},
+  Timestamp                = {2016-10-07}
+}
+
+@Misc{dena2010,
+  author    = {{Deutsche Energie-Agentur}},
+  title     = {dena-Netzstudie 2: Integration erneuerbarer Energien in die deutsche Stromversorgung im Zeitraum 2015 - 2020 mit Ausblick 2025},
+  year      = {2010},
+  owner     = {jonas.gütter},
+  timestamp = {2016-12-22},
+}
+
+@Book{Heuck2013,
+  Title                    = {Elektrische Energieversorgung},
+  Author                   = {Heuck, K and Dettmann, K.-D. and Schulz, D.},
+  Publisher                = {Springer Vieweg},
+  Year                     = {2013},
+  Edition                  = {9},
+
+  Owner                    = {jonas.gütter},
+  Timestamp                = {2016-10-07}
+}
+
+@PhdThesis{Kerber2011,
+  Title                    = {Aufnahmefähigkeit von Niederspannungsverteilnetzen für die Einspeisung aus Photovoltaikkleinanlagen},
+  Author                   = {Kerber, G.},
+  School                   = {Technische Universität München},
+  Year                     = {2011},
+  Month                    = {March},
+
+  File                     = {:\\\\SRV02\\RL-Institut\\04_Projekte\\140_open_eGo\\09-Know-How\\05-Grundlagen\\Diss Kerber.pdf:PDF},
+  Owner                    = {jonas.gütter},
+  Timestamp                = {2016-10-07}
+}
+
+@Misc{Mohrmann2012,
+  author    = {Mohrmann, M and Reese, C. and Hofmann, L. and Schmiesing, J.},
+  title     = {Untersuchung von Niederspannungsverteilnetzen anhand von synthetischen Netzstrukturen},
+  year      = {2012},
+  file      = {:\\\\SRV02\\RL-Institut\\04_Projekte\\140_open_eGo\\09-Know-How\\05-Grundlagen\\Netzgenerierung, Synthese,  Klassifizierung\\ Untersuchung von Niederspannungsverteilnetzen anhand von synthetischen Netzstrukturen (VDE).pdf:PDF},
+  owner     = {jonas.gütter},
+  timestamp = {2016-10-07},
+}
+
+@Book{Nagel2008,
+  Title                    = {Systematische Netzplanung},
+  Author                   = {Nagel, Hermann},
+  Publisher                = {VDE Verlag},
+  Year                     = {2008},
+
+  Owner                    = {jonas.gütter},
+  Timestamp                = {2016-12-22}
+}
+
+@Article{Neis2011,
+  author    = {Neis, P. and Zielstra, D. and Zipf, A.},
+  title     = {The Street Network Evolution of Crowdsourced Maps: OpenStreetMap in Germany 2007-2011},
+  journal   = {Future Internet, 4(1), 1-21.},
+  year      = {2011},
+  owner     = {jonas.gütter},
+  timestamp = {2016-11-28},
+}
+
+@PhdThesis{Scheffler2002,
+  author    = {Scheffler, J.},
+  title     = {Bestimmung der maximal zulässigen Netzanschlussleistung photovoltaischer Energiewandlungsanlagen in Wohnsiedlungsgebieten},
+  school    = {Technische Universität Chemnitz},
+  year      = {2002},
+  file      = {:\\\\SRV02\\RL-Institut\\04_Projekte\\140_open_eGo\\09-Know-How\\05-Grundlagen\\Diss Scheffler.pdf:PDF},
+  owner     = {jonas.gütter},
+  timestamp = {2016-10-07},
+}
+
+@Webpage{osmwiki,
+  author        = {{OpenStreetMap Wiki}},
+  date_accessed = {27.02.2017},
+  title         = {OpenStreetMap Wiki},
+  url           = {http://wiki.openstreetmap.org/w/index.php?title=DE:Hauptseite&oldid=1381081},
+  year          = {2016},
+}
+
+@Book{Pelte2010,
+  title  = {Die Zukunft unserer Energieversorgung. Eine Analyse aus mathematisch-naturwissenschaftlicher Sicht.},
+  year   = {2010},
+  author = {Pelte, Dietrich},
+}
+
+@Book{Zahoransky2010,
+  title     = {Energietechnik: Systeme zur Energieumwandlung. Kompaktwissen für Studium und Beruf.},
+  publisher = {Zahoransky, Richard},
+  year      = {2010},
+  author    = {Zahoransky, Richard and Allelein, Hans-Josef and Bollin, Elmar and Oehler, Helmut and Schelling, Udo},
+}
+
+@Book{Rumpel1989,
+  title     = {Netzleittechnik: Informationstechnik für den Betrieb elektrischer Netze},
+  publisher = {Springer},
+  year      = {1989},
+  author    = {Rumpel, Dieter and Rong Sun, Ji},
+}
+
+@Article{Haklay2008,
+  author  = {Haklay, Mordechai and Weber, Patrick},
+  title   = {OpenStreetMap: User-Generated Street Maps.},
+  journal = {IEEE Pervasive Computing},
+  year    = {2008},
+}
+
+@Article{Haklay2010,
+  author  = {Haklay, Mordechai},
+  title   = {How good is volunteered geographical information? A comparative study of OpenStreetMap and Ordnance Survey datasets.},
+  journal = {Environment and planning B: Planning and design 37.4},
+  year    = {2010},
+}
+
+@Article{Goodchild2007,
+  author  = {Goodchild, Michael F.},
+  title   = {Citizens as sensors: The world of volunteered geography.},
+  journal = {GeoJournal, 69(4)},
+  year    = {2007},
+}
+
+@Article{Goetz2012,
+  author  = {Goetz, Marcus and Zipf, Alexander},
+  title   = {OpenStreetMap in 3D – Detailed Insights on the Current Situation in Germany},
+  journal = {Proceedings of 15th AGILE International Conference on Geographic Information Science, Avignon, France.},
+  year    = {2012},
+}
+
+@Article{Karpov2005,
+  author  = {Karpov, Yuri G. and Ivanovski, Rostislav I. and Voropai, Nikolai I. and Popov, Dmitri B},
+  title   = {Hierarchical Modeling of Electric Power System Expansion by AnyLogic Simulation Software},
+  journal = {Power Tech, 2005 IEEE Russia (pp. 1-5).},
+  year    = {2005},
+}
+
+@Article{Kerber2008,
+  author  = {Kerber, Georg},
+  title   = {Statistische Analyse von NS-Verteilnetzen und Modellierung von Referenznetzen},
+  journal = {Elektrizitätswirtschaft 107.6},
+  year    = {2008},
+}
+
+@Article{Lindner2016,
+  author  = {Lindner, Marco and Aigner, Christian and Witzmann, Rolf and Wirtz, Frank and Berber, Ibrahim and Gödde, Markus and Frings, Robert},
+  title   = {Aktuelle Musternetze zur Untersuchung von Spannungsproblemen in der Niederspannung},
+  journal = {14. Symposium Energieinnovation, Graz/Austria.},
+  year    = {2016},
+}
+
+@Article{Miguez2002,
+  author  = {Miguez, Edelmiro and Cidrás, José and Diaz-Dorado, Eloy and Garcia-Dornelas, José Luis},
+  title   = {An improved branch-exchange algorithm for large-scale distribution network planning},
+  journal = {IEEE Transactions on Power Systems 17.4},
+  year    = {2002},
+}
+
+@Article{Navarro2009a,
+  author  = {Navarro, Alejandro and Rudnick, Hugh},
+  title   = {Navarro, Alejandro and Rudnick, Hugh: Large-Scale Distribution Planning-Part 1: Simultaneous network and transformer optimization},
+  journal = {IEEE Transactions on Power Systems 24.2},
+  year    = {2009},
+}
+
+@Article{Navarro2009b,
+  author  = {Navarro, Alejandro and Rudnick, Hugh},
+  title   = {Large-Scale Distribution Planning-Part 2: Macro-optimization with voronoi’s diagram and tabu search},
+  journal = {IEEE Transactions on Power Systems 24.2},
+  year    = {2009},
+}
+
+@Article{Schloemer2014,
+  author  = {Schlömer, Gerrit and Reese, Constantin and Hofmann, Lutz},
+  title   = {Methode zur automatisierten Bewertung des zukünftigen Ausbaubedarfs in der Niederspannungsebene unter Berücksichtigung verschiedener technischer Konzepte},
+  journal = {13. Symposium Energieinnovation, Graz/Austria.},
+  year    = {2014},
+}
+
+@Article{Schloemer2016,
+  author  = {Schlömer, Gerrit and Hofmann, Lutz},
+  title   = {Eine Heuristik zur Umbauplanung von Niederspannungsnetzen ganzer Ortschaften},
+  journal = {14. Symposium Energieinnovation, Graz/Austria.},
+  year    = {2016},
+}
+
+@Article{Soltan2015,
+  author  = {Soltan, Saleh and Zussman, Gil},
+  title   = {Generation of Synthetic Spatially Embedded Power Grid Networks},
+  journal = {Power and Energy Society General Meeting (PESGM)},
+  year    = {2015},
+}
+
+@MastersThesis{Gust2014,
+  author = {Gust, Gunther},
+  title  = {Analyse von Niederspannungsnetzen und Entwicklung von Referenznetzen},
+  school = {Karlsruhe Institut für Technologie},
+  year   = {2014},
+}
+
+@Webpage{geofabrik,
+  author        = {Geofabrik},
+  date_accessed = {09.12.2016},
+  title         = {Geofabrik},
+  url           = {http://www.geofabrik.de},
+}
+
+@Webpage{destatis2011,
+  author        = {{Statistisches Bundesamt}},
+  date_accessed = {27.02.2017},
+  publisher     = {{Statistisches Bundesamt}},
+  title         = {Zensusdaten zur Bevölkerung},
+  url           = {https://www-genesis.destatis.de/genesis/online/logon},
+  year          = {2011},
+}
+
+@Webpage{Statista2016,
+  author        = {Statista},
+  date_accessed = {26.01.2016},
+  title         = {Anzahl der Stromnetzbetreiber in Deutschland},
+  url           = {https://de.statista.com/statistik/daten/studie/152937/umfrage/anzahl-der-stromnetzbetreiber-in-deutschland-seit-2006/},
+  year          = {2016},
+}
+
+@Book{Fielding2007,
+  title  = {Cluster and classification techniques for the biosciences.},
+  year   = {2007},
+  author = {A. H. Fielding},
+}
+
+@Book{Williamson2010,
+  title     = {The Design of Approximation Algorithms},
+  publisher = {Cambridge University Press},
+  year      = {2010},
+  author    = {Williamson, David P. and Shmoys, David B.},
+}
+
+@Book{,
+  title     = {Approximationsalgorithmen: Eine Einführung},
+  publisher = {Teubner},
+  year      = {2006},
+  author    = {Wanka, Rolf},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-entrytype: Diplomarbeit: req[;abstract;author;keywords;school;title;year] opt[]}
+
+@Comment{jabref-entrytype: Webpage: req[author;date_accessed;publisher;title;url] opt[abstract;keywords;year]}
